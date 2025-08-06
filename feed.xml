@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2025-08-05T17:40:39+02:00</updated>
+  <id>http://localhost:4000/</id>
+
+  
+    <title type="html">林景怀 - 个人主页</title>
+  
+
+  
+    <subtitle>林景怀的个人主页，包含个人信息、研究方向、项目Demo等。</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      <title type="html">交互原型：Social VR 隐私与身份管理</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="交互原型：Social VR 隐私与身份管理" />
+      <published>2024-10-01T00:00:00+02:00</published>
+      <updated>2024-10-01T00:00:00+02:00</updated>
+      <id>http://localhost:4000/social-vr-idm</id>
+      <content type="html" xml:base="http://localhost:4000/">&lt;p&gt;阿是老师打死了&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/post-social-vr-idm/teaser.png&quot; alt=&quot;社交VR身份管理示意图&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;aldhaslj&lt;/p&gt;
+
+&lt;div id=&quot;video-player-container&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
+  &lt;!-- 默认显示YouTube --&gt;
+  &lt;div id=&quot;video-player&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
+    &lt;iframe id=&quot;youtube-player&quot; src=&quot;https://www.youtube.com/embed/xxxxxxxxx&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;text-align:right; font-size:0.9em; color:#666;&quot;&gt;
+    &lt;label for=&quot;video-source&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
+    &lt;select id=&quot;video-source&quot; onchange=&quot;switchVideoSource()&quot; style=&quot;font-size:0.9em;&quot;&gt;
+      &lt;option value=&quot;youtube&quot; selected=&quot;&quot;&gt;YouTube&lt;/option&gt;
+      &lt;option value=&quot;bilibili&quot;&gt;Bilibili&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function switchVideoSource() {
+  var source = document.getElementById(&apos;video-source&apos;).value;
+  var playerDiv = document.getElementById(&apos;video-player&apos;);
+  if (source === &apos;bilibili&apos;) {
+    playerDiv.innerHTML = &apos;&lt;iframe id=&quot;bilibili-player&quot; src=&quot;//player.bilibili.com/player.html?bvid=BV1xxxxxxx&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&apos;;
+  } else if (source === &apos;youtube&apos;) {
+    playerDiv.innerHTML = &apos;&lt;iframe id=&quot;youtube-player&quot; src=&quot;https://www.youtube.com/embed/xxxxxxxxx&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&apos;;
+  }
+}
+&lt;/script&gt;
+
+&lt;h3 id=&quot;项目demo&quot;&gt;&lt;a href=&quot;https://gitlab2.informatik.uni-wuerzburg.de/hci/software/research-prototypes/2024-ismar-identity-management-in-social-vr/-/tree/main/Application?ref_type=heads&quot; style=&quot;text-decoration:underline;&quot;&gt;项目DEMO&lt;/a&gt;&lt;/h3&gt;
+&lt;hr /&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="XR Development &amp; Research" />
+      
+
+      
+
+      
+        <summary type="html">阿是老师打死了</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 2</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 2" />
+      <published>2014-07-17T00:00:00+02:00</published>
+      <updated>2014-07-17T00:00:00+02:00</updated>
+      <id>http://localhost:4000/project-2</id>
+      <content type="html" xml:base="http://localhost:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 3</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 3" />
+      <published>2014-07-16T00:00:00+02:00</published>
+      <updated>2014-07-16T00:00:00+02:00</updated>
+      <id>http://localhost:4000/project-3</id>
+      <content type="html" xml:base="http://localhost:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 4</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 4" />
+      <published>2014-07-15T00:00:00+02:00</published>
+      <updated>2014-07-15T00:00:00+02:00</updated>
+      <id>http://localhost:4000/project-4</id>
+      <content type="html" xml:base="http://localhost:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 5</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 5" />
+      <published>2014-07-14T00:00:00+02:00</published>
+      <updated>2014-07-14T00:00:00+02:00</updated>
+      <id>http://localhost:4000/project-5</id>
+      <content type="html" xml:base="http://localhost:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
