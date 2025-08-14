@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-08-05T17:40:39+02:00</updated>
+  <updated>2025-08-14T23:02:39+02:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -20,45 +20,217 @@
   
   
     <entry>
-      <title type="html">交互原型：Social VR 隐私与身份管理</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="交互原型：Social VR 隐私与身份管理" />
+      <title type="html">DEMO：Avatar具身体验</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="DEMO：Avatar具身体验" />
+      <published>2025-04-01T00:00:00+02:00</published>
+      <updated>2025-04-01T00:00:00+02:00</updated>
+      <id>http://localhost:4000/emad</id>
+      <content type="html" xml:base="http://localhost:4000/">&lt;h3 id=&quot;项目背景&quot;&gt;项目背景&lt;/h3&gt;
+&lt;p&gt;作为社交虚拟现实（Social VR）开发原型的一部分，我们创建了一个 Avatar 具身体验 Demo。用户可以在多种风格的 Avatar 间自由切换，或上传自定义 Avatar，体验卡通、低多边形、写实等不同风格的具身效果。Demo 同时支持 EmbodimentLab 拟真 Avatar 和 Ready Player Me Avatar，展示了丰富的虚拟形象交互能力。&lt;/p&gt;
+
+&lt;p&gt;Demo 同时支持 EmbodimentLab 拟真 Avatar 和 Ready Player Me Avatar，展示了丰富的虚拟形象交互能力。&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Demo &amp; XR Development" />
+      
+
+      
+
+      
+        <summary type="html">项目背景 作为社交虚拟现实（Social VR）开发原型的一部分，我们创建了一个 Avatar 具身体验 Demo。用户可以在多种风格的 Avatar 间自由切换，或上传自定义 Avatar，体验卡通、低多边形、写实等不同风格的具身效果。Demo 同时支持 EmbodimentLab 拟真 Avatar 和 Ready Player Me Avatar，展示了丰富的虚拟形象交互能力。</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">元宇宙隐私保护与身份管理机制交互原型</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="元宇宙隐私保护与身份管理机制交互原型" />
       <published>2024-10-01T00:00:00+02:00</published>
       <updated>2024-10-01T00:00:00+02:00</updated>
       <id>http://localhost:4000/social-vr-idm</id>
-      <content type="html" xml:base="http://localhost:4000/">&lt;p&gt;阿是老师打死了&lt;/p&gt;
+      <content type="html" xml:base="http://localhost:4000/">&lt;h3 id=&quot;项目背景&quot;&gt;项目背景&lt;/h3&gt;
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;img src=&quot;img/post-social-vr-idm/identity-theft.png&quot; width=&quot;100%&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;img/post-social-vr-idm/teaser.png&quot; alt=&quot;社交VR身份管理示意图&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;身份盗用和隐私泄露是元宇宙/社交虚拟现实（Social VR）中无法忽视的挑战。随着社交VR应用的普及，以及在教育、娱乐和工作等领域潜在的广泛应用，用户对隐私保护和身份管理的需求日益增加。以及其在教育、娱乐和工作等领域的广泛应用，用户对隐私保护和身份管理的需求日益增加。我们开发了一个集成运动生物识别验证等新型与传统防护措施的社交VR原型，旨在探索多种身份管理方案及其对可用性和用户接受度的影响。相关研究已发表于ISMAR 2024&lt;sup&gt;&lt;a href=&quot;#ref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 
-&lt;p&gt;aldhaslj&lt;/p&gt;
+&lt;h3 id=&quot;项目亮点&quot;&gt;项目亮点&lt;/h3&gt;
 
-&lt;div id=&quot;video-player-container&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
-  &lt;!-- 默认显示YouTube --&gt;
-  &lt;div id=&quot;video-player&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
-    &lt;iframe id=&quot;youtube-player&quot; src=&quot;https://www.youtube.com/embed/xxxxxxxxx&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;该原型使用Unity开发，模拟了社交VR环境中的用户注册、交互教学、身份验证、隐私及安全保护机制等功能，旨在提供一个可信且包容的社交VR体验。我们特别关注了运动生物识别验证等新型防护措施的集成，以提高用户身份验证的安全性和便利性。&lt;/p&gt;
+
+&lt;div class=&quot;video-flex-grid&quot;&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/registration.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;用户注册、个性化设置&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/tutorial.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;交互教学&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/gallery.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;社交场景及功能演示&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;-运动生物识别验证机制&quot;&gt;● 运动生物识别验证机制&lt;/h4&gt;
+
+&lt;p&gt;本原型集成了运动生物识别验证机制，可通过VR设备采集的用户运动数据（如手部、头部动作）结合机器学习方法进行身份验证&lt;sup&gt;&lt;a href=&quot;#ref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;。为了兼顾安全性与用户体验，我们设计并探究了主动（空中书写密码）和被动（自动采集日常交互数据）两种验证方式。&lt;/p&gt;
+&lt;div class=&quot;video-flex-grid&quot;&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/verify-active.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;主动验证&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/verify-passive.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;被动验证&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;-身份真实度可视化&quot;&gt;● 身份真实度可视化&lt;/h4&gt;
+
+&lt;p&gt;在社交VR环境中，用户高度关注他人身份的真实性。为此，我们设计了身份真实性可视化机制，通过颜色、图标等视觉指示器直观展示用户身份的可信度，帮助用户快速判断他人的身份，从而提升社交互动中的信任感&lt;sup&gt;&lt;a href=&quot;#ref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;。此外，系统还集成了便捷的交互方式，如佩戴虚拟眼镜查看他人身份信息、访问个人资料等，使用户能够高效获取相关信息，进一步增强了社交VR的互动体验与沉浸感。&lt;/p&gt;
+&lt;div class=&quot;video-flex-grid&quot; style=&quot;justify-content: center;&quot;&gt;
+  &lt;div class=&quot;video-flex-item&quot; style=&quot;max-width:500px;&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/goggle.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;身份真实性可视化交互&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;-身份管理系统&quot;&gt;● 身份管理系统&lt;/h4&gt;
+
+&lt;p&gt;本原型集成了身份管理系统，支持用户进行个人信息设置和隐私保护选项配置。在社交互动中，用户可随时查看他人资料，并具备添加好友、举报、拉黑等功能，有效提升隐私安全与使用体验。&lt;/p&gt;
+
+&lt;h3 id=&quot;个人角色与贡献&quot;&gt;个人角色与贡献&lt;/h3&gt;
+&lt;p&gt;本人承担该原型95%以上的&lt;strong&gt;设计与开发工作&lt;/strong&gt;，包括但不限于程序开发、3D美术、场景搭建、交互与UI设计及实现等。&lt;/p&gt;
+
+&lt;h3 id=&quot;参考文献&quot;&gt;参考文献&lt;/h3&gt;
+
+&lt;p&gt;&lt;a id=&quot;ref1&quot;&gt;&lt;/a&gt;
+[1] Lin, J., Rack, C., Wienrich, C., &amp;amp; Latoschik, M. E. (2024, October). Usability, acceptance, and trust of privacy protection mechanisms and identity management in social virtual reality. In 2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) (pp. 130-139). IEEE.&lt;/p&gt;
+
+&lt;p&gt;&lt;a id=&quot;ref2&quot;&gt;&lt;/a&gt;
+[2] Rack, C., Schach, L., Achter, F., Shehada, Y., Lin, J., &amp;amp; Latoschik, M. E. (2024, October). Motion passwords. In Proceedings of the 30th ACM Symposium on Virtual Reality Software and Technology (pp. 1-11).&lt;/p&gt;
+
+&lt;p&gt;&lt;a id=&quot;ref3&quot;&gt;&lt;/a&gt;
+[3] Lin, J., Cronjé, J., Wienrich, C., Pauli, P., &amp;amp; Latoschik, M. E. (2023). Visual Indicators Representing Avatars’ Authenticity in Social Virtual Reality and Their Impacts on Perceived Trustworthiness. IEEE transactions on visualization and computer graphics, 29(11), 4589-4599.&lt;/p&gt;
+
+&lt;h3 id=&quot;相关链接&quot;&gt;相关链接&lt;/h3&gt;
+&lt;p&gt;● &lt;a href=&quot;https://gitlab2.informatik.uni-wuerzburg.de/hci/software/research-prototypes/2024-ismar-identity-management-in-social-vr/-/tree/main/Application?ref_type=heads&quot;&gt;项目Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- - 3D美术、场景搭建(使用第三方资源)：100%
+- 交互设计与实现
+    - 基础VR交互（使用第三方插件条件下）：100%
+    - 运动生物识别验证机制的交互设计与实现：50%
+    - UI：100%
+- 应用流程
+- 用户研究设计与实施 --&gt;
+
+&lt;!-- 
+
+
+
+&lt;div id=&quot;video-player-container-120250814230239&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
+  &lt;div id=&quot;video-player-120250814230239&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
+    &lt;iframe src=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=114985082558201&amp;bvid=BV1QBtizgETP&amp;cid=31534482748&amp;p=1&amp;autoplay=0&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
   &lt;/div&gt;
   &lt;div style=&quot;text-align:right; font-size:0.9em; color:#666;&quot;&gt;
-    &lt;label for=&quot;video-source&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
-    &lt;select id=&quot;video-source&quot; onchange=&quot;switchVideoSource()&quot; style=&quot;font-size:0.9em;&quot;&gt;
-      &lt;option value=&quot;youtube&quot; selected=&quot;&quot;&gt;YouTube&lt;/option&gt;
-      &lt;option value=&quot;bilibili&quot;&gt;Bilibili&lt;/option&gt;
+    &lt;label for=&quot;video-source-120250814230239&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
+    &lt;select id=&quot;video-source-120250814230239&quot; style=&quot;font-size:0.9em;&quot;&gt;
+      
+        
+        &lt;option value=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=114985082558201&amp;bvid=BV1QBtizgETP&amp;cid=31534482748&amp;p=1&amp;autoplay=0&quot; selected&gt;bilibili&lt;/option&gt;
+      
+        
+        &lt;option value=&quot;//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW&quot;&gt;youtube&lt;/option&gt;
+      
     &lt;/select&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;script&gt;
-function switchVideoSource() {
-  var source = document.getElementById(&apos;video-source&apos;).value;
-  var playerDiv = document.getElementById(&apos;video-player&apos;);
-  if (source === &apos;bilibili&apos;) {
-    playerDiv.innerHTML = &apos;&lt;iframe id=&quot;bilibili-player&quot; src=&quot;//player.bilibili.com/player.html?bvid=BV1xxxxxxx&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&apos;;
-  } else if (source === &apos;youtube&apos;) {
-    playerDiv.innerHTML = &apos;&lt;iframe id=&quot;youtube-player&quot; src=&quot;https://www.youtube.com/embed/xxxxxxxxx&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&apos;;
+(function(){
+  var uniq = &quot;120250814230239&quot;;
+  var select = document.getElementById(&quot;video-source-&quot; + uniq);
+  var playerDiv = document.getElementById(&quot;video-player-&quot; + uniq);
+
+  if (select &amp;&amp; playerDiv) {
+    select.addEventListener(&quot;change&quot;, function(){
+      var src = select.value;
+      playerDiv.innerHTML = &apos;&lt;iframe src=&quot;&apos; + src + &apos;&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&apos;;
+    });
   }
-}
+})();
 &lt;/script&gt;
 
-&lt;h3 id=&quot;项目demo&quot;&gt;&lt;a href=&quot;https://gitlab2.informatik.uni-wuerzburg.de/hci/software/research-prototypes/2024-ismar-identity-management-in-social-vr/-/tree/main/Application?ref_type=heads&quot; style=&quot;text-decoration:underline;&quot;&gt;项目DEMO&lt;/a&gt;&lt;/h3&gt;
-&lt;hr /&gt;</content>
+
+
+
+
+
+
+
+&lt;div id=&quot;video-player-container-220250814230239&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
+  &lt;div id=&quot;video-player-220250814230239&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
+    &lt;iframe src=&quot;//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div style=&quot;text-align:right; font-size:0.9em; color:#666;&quot;&gt;
+    &lt;label for=&quot;video-source-220250814230239&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
+    &lt;select id=&quot;video-source-220250814230239&quot; style=&quot;font-size:0.9em;&quot;&gt;
+      
+        
+        &lt;option value=&quot;//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW&quot; selected&gt;youtube&lt;/option&gt;
+      
+        
+        &lt;option value=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=114985082558201&amp;bvid=BV1QBtizgETP&amp;cid=31534482748&amp;p=1&amp;autoplay=0&quot;&gt;bilibili&lt;/option&gt;
+      
+    &lt;/select&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+(function(){
+  var uniq = &quot;220250814230239&quot;;
+  var select = document.getElementById(&quot;video-source-&quot; + uniq);
+  var playerDiv = document.getElementById(&quot;video-player-&quot; + uniq);
+
+  if (select &amp;&amp; playerDiv) {
+    select.addEventListener(&quot;change&quot;, function(){
+      var src = select.value;
+      playerDiv.innerHTML = &apos;&lt;iframe src=&quot;&apos; + src + &apos;&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&apos;;
+    });
+  }
+})();
+&lt;/script&gt;
+
+ --&gt;</content>
 
       
       
@@ -73,13 +245,13 @@ function switchVideoSource() {
       </author>
 
       
-        <category term="XR Development &amp; Research" />
+        <category term="Research &amp; XR Development" />
       
 
       
 
       
-        <summary type="html">阿是老师打死了</summary>
+        <summary type="html">项目背景</summary>
       
 
       
@@ -87,11 +259,11 @@ function switchVideoSource() {
     </entry>
   
     <entry>
-      <title type="html">Project 2</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 2" />
-      <published>2014-07-17T00:00:00+02:00</published>
-      <updated>2014-07-17T00:00:00+02:00</updated>
-      <id>http://localhost:4000/project-2</id>
+      <title type="html">虚拟迷宫：人际信任行为测量范式</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="虚拟迷宫：人际信任行为测量范式" />
+      <published>2023-03-01T00:00:00+01:00</published>
+      <updated>2023-03-01T00:00:00+01:00</updated>
+      <id>http://localhost:4000/virtual-maze</id>
       <content type="html" xml:base="http://localhost:4000/"></content>
 
       
@@ -107,7 +279,7 @@ function switchVideoSource() {
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Research &amp; XR Development" />
       
 
       
@@ -121,11 +293,11 @@ function switchVideoSource() {
     </entry>
   
     <entry>
-      <title type="html">Project 3</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 3" />
-      <published>2014-07-16T00:00:00+02:00</published>
-      <updated>2014-07-16T00:00:00+02:00</updated>
-      <id>http://localhost:4000/project-3</id>
+      <title type="html">RealityStack：跨平台XR应用开发框架</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="RealityStack：跨平台XR应用开发框架" />
+      <published>2023-01-01T00:00:00+01:00</published>
+      <updated>2023-01-01T00:00:00+01:00</updated>
+      <id>http://localhost:4000/realitystack</id>
       <content type="html" xml:base="http://localhost:4000/"></content>
 
       
@@ -141,7 +313,7 @@ function switchVideoSource() {
       </author>
 
       
-        <category term="Web Development" />
+        <category term="XR Development" />
       
 
       
@@ -155,11 +327,11 @@ function switchVideoSource() {
     </entry>
   
     <entry>
-      <title type="html">Project 4</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 4" />
-      <published>2014-07-15T00:00:00+02:00</published>
-      <updated>2014-07-15T00:00:00+02:00</updated>
-      <id>http://localhost:4000/project-4</id>
+      <title type="html">AR文化遗产可视化</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="AR文化遗产可视化" />
+      <published>2019-09-01T00:00:00+02:00</published>
+      <updated>2019-09-01T00:00:00+02:00</updated>
+      <id>http://localhost:4000/the-regency-town-house</id>
       <content type="html" xml:base="http://localhost:4000/"></content>
 
       
@@ -175,7 +347,7 @@ function switchVideoSource() {
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Cultural &amp; XR Development" />
       
 
       
@@ -189,11 +361,11 @@ function switchVideoSource() {
     </entry>
   
     <entry>
-      <title type="html">Project 5</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 5" />
-      <published>2014-07-14T00:00:00+02:00</published>
-      <updated>2014-07-14T00:00:00+02:00</updated>
-      <id>http://localhost:4000/project-5</id>
+      <title type="html">VR游戏：Escape the Room</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="VR游戏：Escape the Room" />
+      <published>2018-11-01T00:00:00+01:00</published>
+      <updated>2018-11-01T00:00:00+01:00</updated>
+      <id>http://localhost:4000/escape-the-room</id>
       <content type="html" xml:base="http://localhost:4000/"></content>
 
       
@@ -209,7 +381,7 @@ function switchVideoSource() {
       </author>
 
       
-        <category term="Web Development" />
+        <category term="Game &amp; XR Development" />
       
 
       
