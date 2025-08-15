@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <link href="https://dididibong.github.io//feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://dididibong.github.io//" rel="alternate" type="text/html" />
-  <updated>2025-08-14T23:13:40+02:00</updated>
+  <updated>2025-08-15T22:25:07+02:00</updated>
   <id>https://dididibong.github.io//</id>
 
   
@@ -26,9 +26,48 @@
       <updated>2025-04-01T00:00:00+02:00</updated>
       <id>https://dididibong.github.io//emad</id>
       <content type="html" xml:base="https://dididibong.github.io//">&lt;h3 id=&quot;项目背景&quot;&gt;项目背景&lt;/h3&gt;
-&lt;p&gt;作为社交虚拟现实（Social VR）开发原型的一部分，我们创建了一个 Avatar 具身体验 Demo。用户可以在多种风格的 Avatar 间自由切换，或上传自定义 Avatar，体验卡通、低多边形、写实等不同风格的具身效果。Demo 同时支持 EmbodimentLab 拟真 Avatar 和 Ready Player Me Avatar，展示了丰富的虚拟形象交互能力。&lt;/p&gt;
+&lt;p&gt;该项目作为社交虚拟现实（Social VR）开发的原型，同时也是 &lt;em&gt;&lt;a href=&quot;https://gitlab2.informatik.uni-wuerzburg.de/hci/realitystack/realitystack-info&quot;&gt;RealityStack&lt;/a&gt;&lt;/em&gt; 框架的开发示例，旨在探索 Avatar 具身体验。用户不仅可以在多种风格的 Avatar 之间自由切换，还能上传自定义 Avatar，体验卡通、低多边形、写实等多样化的具身效果，提升虚拟社交的沉浸感与个性化。&lt;/p&gt;
 
-&lt;p&gt;Demo 同时支持 EmbodimentLab 拟真 Avatar 和 Ready Player Me Avatar，展示了丰富的虚拟形象交互能力。&lt;/p&gt;</content>
+&lt;h3 id=&quot;项目亮点&quot;&gt;项目亮点&lt;/h3&gt;
+&lt;p&gt;通过集成反向运动学（IK）与Avatar姿态处理，可自动适配不同的&lt;strong&gt;用户体型&lt;/strong&gt;和&lt;strong&gt;Avatar体型&lt;/strong&gt;，实现自然流畅的具身体验与Avatar切换。&lt;/p&gt;
+
+&lt;div class=&quot;video-flex-grid&quot;&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;video src=&quot;img/post-emad/switching-slow.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;切换不同体型、风格的Avatar&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;video src=&quot;img/post-emad/realistic-avatar.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;体验拟真Avatar&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;支持实时加载 &lt;em&gt;&lt;a href=&quot;https://emlab.hci.uni-wuerzburg.de/&quot;&gt;EmbodimentLab&lt;/a&gt;&lt;/em&gt; 拟真 Avatar 和 &lt;em&gt;&lt;a href=&quot;https://readyplayer.me/&quot;&gt;Ready Player Me&lt;/a&gt;&lt;/em&gt; Avatar。&lt;/p&gt;
+
+&lt;div class=&quot;video-flex-grid&quot;&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;video src=&quot;img/post-emad/RPM.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;实时加载Ready Player Me Avatar&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;video src=&quot;img/post-emad/embodimentlab-avatar.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;实时加载EmbodimentLab Avatar&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;个人角色与贡献&quot;&gt;个人角色与贡献&lt;/h3&gt;
+&lt;p&gt;本 Demo 作为 &lt;em&gt;&lt;a href=&quot;https://gitlab2.informatik.uni-wuerzburg.de/hci/realitystack/realitystack-info&quot;&gt;RealityStack&lt;/a&gt;&lt;/em&gt; 框架的一个开发示例，使用了框架内资源及第三方插件 &lt;em&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/tools/animation/final-ik-14290&quot;&gt;Final IK&lt;/a&gt;&lt;/em&gt; 和 &lt;em&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/tools/game-toolkits/ready-player-me-avatar-and-character-creator-259814&quot;&gt;Ready Player Me SDK&lt;/a&gt;&lt;/em&gt;。在此基础上我独立承担其&lt;strong&gt;设计与开发工作&lt;/strong&gt;，包括但不限于程序开发、3D美术、场景搭建、交互逻辑与UI设计及实现等。&lt;/p&gt;
+
+&lt;h3 id=&quot;相关链接&quot;&gt;相关链接&lt;/h3&gt;
+&lt;p&gt;● &lt;a href=&quot;https://github.com/DiDiDiBong/Avatar-Customization-and-Embodiment&quot;&gt;Demo下载&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -49,7 +88,7 @@
       
 
       
-        <summary type="html">项目背景 作为社交虚拟现实（Social VR）开发原型的一部分，我们创建了一个 Avatar 具身体验 Demo。用户可以在多种风格的 Avatar 间自由切换，或上传自定义 Avatar，体验卡通、低多边形、写实等不同风格的具身效果。Demo 同时支持 EmbodimentLab 拟真 Avatar 和 Ready Player Me Avatar，展示了丰富的虚拟形象交互能力。</summary>
+        <summary type="html">项目背景 该项目作为社交虚拟现实（Social VR）开发的原型，同时也是 RealityStack 框架的开发示例，旨在探索 Avatar 具身体验。用户不仅可以在多种风格的 Avatar 之间自由切换，还能上传自定义 Avatar，体验卡通、低多边形、写实等多样化的具身效果，提升虚拟社交的沉浸感与个性化。</summary>
       
 
       
@@ -75,19 +114,19 @@
 
 &lt;div class=&quot;video-flex-grid&quot;&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video src=&quot;img/post-social-vr-idm/registration.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/registration.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;用户注册、个性化设置&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video src=&quot;img/post-social-vr-idm/tutorial.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/tutorial.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;交互教学&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video src=&quot;img/post-social-vr-idm/gallery.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/gallery.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;社交场景及功能演示&lt;/div&gt;
@@ -96,16 +135,16 @@
 
 &lt;h4 id=&quot;-运动生物识别验证机制&quot;&gt;● 运动生物识别验证机制&lt;/h4&gt;
 
-&lt;p&gt;本原型集成了运动生物识别验证机制，可通过VR设备采集的用户运动数据（如手部、头部动作）结合机器学习方法进行身份验证&lt;sup&gt;&lt;a href=&quot;#ref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;。为了兼顾安全性与用户体验，我们设计并探究了主动（空中书写密码）和被动（自动采集日常交互数据）两种验证方式。&lt;/p&gt;
+&lt;p&gt;本原型集成了运动生物识别验证机制，可通过VR设备采集的用户运动数据（如手部、头部动作）结合机器学习方法进行身份验证&lt;sup&gt;&lt;a href=&quot;#ref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;。为了兼顾安全性与用户体验，我们设计并探究了主动（采集手部书写密码动作）和被动（采集日常交互运动数据）两种验证方式。&lt;/p&gt;
 &lt;div class=&quot;video-flex-grid&quot;&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video src=&quot;img/post-social-vr-idm/verify-active.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/verify-active-new.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;主动验证&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video src=&quot;img/post-social-vr-idm/verify-passive.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/verify-passive-new.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;被动验证&lt;/div&gt;
@@ -117,7 +156,7 @@
 &lt;p&gt;在社交VR环境中，用户高度关注他人身份的真实性。为此，我们设计了身份真实性可视化机制，通过颜色、图标等视觉指示器直观展示用户身份的可信度，帮助用户快速判断他人的身份，从而提升社交互动中的信任感&lt;sup&gt;&lt;a href=&quot;#ref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;。此外，系统还集成了便捷的交互方式，如佩戴虚拟眼镜查看他人身份信息、访问个人资料等，使用户能够高效获取相关信息，进一步增强了社交VR的互动体验与沉浸感。&lt;/p&gt;
 &lt;div class=&quot;video-flex-grid&quot; style=&quot;justify-content: center;&quot;&gt;
   &lt;div class=&quot;video-flex-item&quot; style=&quot;max-width:500px;&quot;&gt;
-    &lt;video src=&quot;img/post-social-vr-idm/goggle.webm&quot; controls=&quot;&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/goggle.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;身份真实性可视化交互&lt;/div&gt;
@@ -128,8 +167,17 @@
 
 &lt;p&gt;本原型集成了身份管理系统，支持用户进行个人信息设置和隐私保护选项配置。在社交互动中，用户可随时查看他人资料，并具备添加好友、举报、拉黑等功能，有效提升隐私安全与使用体验。&lt;/p&gt;
 
+&lt;div class=&quot;video-flex-grid&quot; style=&quot;justify-content: center;&quot;&gt;
+  &lt;div class=&quot;video-flex-item&quot; style=&quot;max-width:500px;&quot;&gt;
+    &lt;video src=&quot;img/post-social-vr-idm/user-profiles.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;身份管理交互界面&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
 &lt;h3 id=&quot;个人角色与贡献&quot;&gt;个人角色与贡献&lt;/h3&gt;
-&lt;p&gt;本人承担该原型95%以上的&lt;strong&gt;设计与开发工作&lt;/strong&gt;，包括但不限于程序开发、3D美术、场景搭建、交互与UI设计及实现等。&lt;/p&gt;
+&lt;p&gt;在使用第三方资源的基础上，本人承担该原型绝大部分的&lt;strong&gt;设计与开发工作&lt;/strong&gt;，包括但不限于程序开发、3D美术、场景搭建、交互逻辑与UI设计及实现等。&lt;/p&gt;
 
 &lt;h3 id=&quot;参考文献&quot;&gt;参考文献&lt;/h3&gt;
 
@@ -143,7 +191,7 @@
 [3] Lin, J., Cronjé, J., Wienrich, C., Pauli, P., &amp;amp; Latoschik, M. E. (2023). Visual Indicators Representing Avatars’ Authenticity in Social Virtual Reality and Their Impacts on Perceived Trustworthiness. IEEE transactions on visualization and computer graphics, 29(11), 4589-4599.&lt;/p&gt;
 
 &lt;h3 id=&quot;相关链接&quot;&gt;相关链接&lt;/h3&gt;
-&lt;p&gt;● &lt;a href=&quot;https://gitlab2.informatik.uni-wuerzburg.de/hci/software/research-prototypes/2024-ismar-identity-management-in-social-vr/-/tree/main/Application?ref_type=heads&quot;&gt;项目Demo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;● &lt;a href=&quot;https://gitlab2.informatik.uni-wuerzburg.de/hci/software/research-prototypes/2024-ismar-identity-management-in-social-vr/-/tree/main/Application?ref_type=heads&quot;&gt;Demo下载&lt;/a&gt;&lt;/p&gt;
 
 &lt;!-- - 3D美术、场景搭建(使用第三方资源)：100%
 - 交互设计与实现
@@ -157,13 +205,13 @@
 
 
 
-&lt;div id=&quot;video-player-container-120250814231340&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
-  &lt;div id=&quot;video-player-120250814231340&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
+&lt;div id=&quot;video-player-container-120250815222507&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
+  &lt;div id=&quot;video-player-120250815222507&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
     &lt;iframe src=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=114985082558201&amp;bvid=BV1QBtizgETP&amp;cid=31534482748&amp;p=1&amp;autoplay=0&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
   &lt;/div&gt;
   &lt;div style=&quot;text-align:right; font-size:0.9em; color:#666;&quot;&gt;
-    &lt;label for=&quot;video-source-120250814231340&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
-    &lt;select id=&quot;video-source-120250814231340&quot; style=&quot;font-size:0.9em;&quot;&gt;
+    &lt;label for=&quot;video-source-120250815222507&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
+    &lt;select id=&quot;video-source-120250815222507&quot; style=&quot;font-size:0.9em;&quot;&gt;
       
         
         &lt;option value=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=114985082558201&amp;bvid=BV1QBtizgETP&amp;cid=31534482748&amp;p=1&amp;autoplay=0&quot; selected&gt;bilibili&lt;/option&gt;
@@ -177,7 +225,7 @@
 
 &lt;script&gt;
 (function(){
-  var uniq = &quot;120250814231340&quot;;
+  var uniq = &quot;120250815222507&quot;;
   var select = document.getElementById(&quot;video-source-&quot; + uniq);
   var playerDiv = document.getElementById(&quot;video-player-&quot; + uniq);
 
@@ -197,13 +245,13 @@
 
 
 
-&lt;div id=&quot;video-player-container-220250814231340&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
-  &lt;div id=&quot;video-player-220250814231340&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
+&lt;div id=&quot;video-player-container-220250815222507&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
+  &lt;div id=&quot;video-player-220250815222507&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
     &lt;iframe src=&quot;//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
   &lt;/div&gt;
   &lt;div style=&quot;text-align:right; font-size:0.9em; color:#666;&quot;&gt;
-    &lt;label for=&quot;video-source-220250814231340&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
-    &lt;select id=&quot;video-source-220250814231340&quot; style=&quot;font-size:0.9em;&quot;&gt;
+    &lt;label for=&quot;video-source-220250815222507&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
+    &lt;select id=&quot;video-source-220250815222507&quot; style=&quot;font-size:0.9em;&quot;&gt;
       
         
         &lt;option value=&quot;//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW&quot; selected&gt;youtube&lt;/option&gt;
@@ -217,7 +265,7 @@
 
 &lt;script&gt;
 (function(){
-  var uniq = &quot;220250814231340&quot;;
+  var uniq = &quot;220250815222507&quot;;
   var select = document.getElementById(&quot;video-source-&quot; + uniq);
   var playerDiv = document.getElementById(&quot;video-player-&quot; + uniq);
 
@@ -245,7 +293,7 @@
       </author>
 
       
-        <category term="Research &amp; XR Development" />
+        <category term="Research, XR Development, UX Design" />
       
 
       
@@ -293,46 +341,20 @@
     </entry>
   
     <entry>
-      <title type="html">RealityStack：跨平台XR应用开发框架</title>
-      <link href="https://dididibong.github.io//" rel="alternate" type="text/html" title="RealityStack：跨平台XR应用开发框架" />
-      <published>2023-01-01T00:00:00+01:00</published>
-      <updated>2023-01-01T00:00:00+01:00</updated>
-      <id>https://dididibong.github.io//realitystack</id>
-      <content type="html" xml:base="https://dididibong.github.io//"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="XR Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">AR文化遗产可视化</title>
       <link href="https://dididibong.github.io//" rel="alternate" type="text/html" title="AR文化遗产可视化" />
       <published>2019-09-01T00:00:00+02:00</published>
       <updated>2019-09-01T00:00:00+02:00</updated>
       <id>https://dididibong.github.io//the-regency-town-house</id>
-      <content type="html" xml:base="https://dididibong.github.io//"></content>
+      <content type="html" xml:base="https://dididibong.github.io//">&lt;h3 id=&quot;项目背景&quot;&gt;项目背景&lt;/h3&gt;
+&lt;p&gt;The Regency Town House 是位于英国布莱顿的一处历史建筑，建于1820年，现为布莱顿和霍夫市的文化遗产保护项目。我们与该文化遗产保护项目合作，旨在通过增强现实（AR）技术，向公众展示这座建筑的历史和文化价值。&lt;/p&gt;
+
+&lt;h3 id=&quot;项目亮点&quot;&gt;项目亮点&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;增强现实可视化&lt;/strong&gt;：使用 AR 技术将建筑的历史信息和文化背景以交互式方式呈现，增强参观者的体验。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;建筑数字化重建&lt;/strong&gt;：通过现场测绘和三维建模技术，重建建筑的原始外观和内部结构。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;还原历史面貌&lt;/strong&gt;：结合历史文献和照片资料，重现建筑在不同时期的室内装饰和布局。&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -353,7 +375,7 @@
       
 
       
-        <summary type="html"></summary>
+        <summary type="html">项目背景 The Regency Town House 是位于英国布莱顿的一处历史建筑，建于1820年，现为布莱顿和霍夫市的文化遗产保护项目。我们与该文化遗产保护项目合作，旨在通过增强现实（AR）技术，向公众展示这座建筑的历史和文化价值。</summary>
       
 
       
@@ -366,7 +388,63 @@
       <published>2018-11-01T00:00:00+01:00</published>
       <updated>2018-11-01T00:00:00+01:00</updated>
       <id>https://dididibong.github.io//escape-the-room</id>
-      <content type="html" xml:base="https://dididibong.github.io//"></content>
+      <content type="html" xml:base="https://dididibong.github.io//">&lt;h3 id=&quot;项目背景&quot;&gt;项目背景&lt;/h3&gt;
+&lt;p&gt;本游戏旨在充分发挥虚拟现实（VR）在空间交互及环境、物品交互方面的独特优势，突破传统密室逃脱游戏受屏幕限制的设计边界。在高沉浸感的环境中，玩家可与绝大多数物品以接近现实的方式进行直观交互，通过这些交互发现并串联线索。VR为关卡设计提供了高度的自由度，使精心构建的场景如同置身真实世界，玩家甚至能够运用创造力，以多种方式达成目标。&lt;/p&gt;
+
+&lt;h3 id=&quot;项目亮点&quot;&gt;项目亮点&lt;/h3&gt;
+
+&lt;h4 id=&quot;-独特的时间控制机制巧妙利用时间线索解锁谜题&quot;&gt;● 独特的时间控制机制，巧妙利用时间线索解锁谜题。&lt;/h4&gt;
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;video src=&quot;img/post-escape-the-room/time-shift.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    您的浏览器不支持 WebM 视频。
+  &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;-多样化沉浸式交互探索房间各处发现隐藏线索&quot;&gt;● 多样化沉浸式交互，探索房间各处，发现隐藏线索。&lt;/h4&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;video src=&quot;img/post-escape-the-room/lots-of-interactions.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    您的浏览器不支持 WebM 视频。
+  &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;-高度自由的探索空间鼓励玩家自主发现和解决问题&quot;&gt;● 高度自由的探索空间，鼓励玩家自主发现和解决问题。&lt;/h4&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;video src=&quot;img/post-escape-the-room/fan-key-drop.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    您的浏览器不支持 WebM 视频。
+  &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;-环环相扣的谜题设计考验玩家的观察力与推理能力&quot;&gt;● 环环相扣的谜题设计，考验玩家的观察力与推理能力。&lt;/h4&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;video src=&quot;img/post-escape-the-room/black-board.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    您的浏览器不支持 WebM 视频。
+  &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;-充满真实感的物理互动助你逃出生天&quot;&gt;● 充满真实感的物理互动，助你逃出生天！&lt;/h4&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt;
+  &lt;video src=&quot;img/post-escape-the-room/ice-key-door-open.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    您的浏览器不支持 WebM 视频。
+  &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;个人角色与贡献&quot;&gt;个人角色与贡献&lt;/h3&gt;
+&lt;p&gt;该项目为四人合作完成，作为主要开发者之一，我负责了以下工作：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;关卡设计，包括谜题设计、线索布局等：&lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;3D美术，包括所有物品的模型制作、场景搭建等：&lt;strong&gt;100%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;交互逻辑设计，包括时间控制机制、物理交互等：&lt;strong&gt;40%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;游戏测试与优化：&lt;strong&gt;25%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;相关链接&quot;&gt;相关链接&lt;/h3&gt;
+&lt;p&gt;● &lt;a href=&quot;https://github.com/DiDiDiBong/UCL-Escape-The-Room&quot;&gt;Unity项目仓库&lt;/a&gt;&lt;span style=&quot;font-size:0.6em;&quot;&gt;（&lt;em&gt;注：该项目面向 HTC Vive 平台开发；正在进行面向 Quest 设备的适配与优化工作&lt;/em&gt;）&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;● &lt;a href=&quot;https://drive.google.com/file/d/1HGeb-6CFaTaiJ6dgG34U2NRqz8jmeoqz/view&quot;&gt;游戏详细介绍与通关攻略&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -387,7 +465,7 @@
       
 
       
-        <summary type="html"></summary>
+        <summary type="html">项目背景 本游戏旨在充分发挥虚拟现实（VR）在空间交互及环境、物品交互方面的独特优势，突破传统密室逃脱游戏受屏幕限制的设计边界。在高沉浸感的环境中，玩家可与绝大多数物品以接近现实的方式进行直观交互，通过这些交互发现并串联线索。VR为关卡设计提供了高度的自由度，使精心构建的场景如同置身真实世界，玩家甚至能够运用创造力，以多种方式达成目标。</summary>
       
 
       

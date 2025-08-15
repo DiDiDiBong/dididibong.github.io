@@ -263,9 +263,12 @@ section.success {
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
       display: flex;
-      flex-flow: row wrap;
+      /* flex-flow: row wrap;
       align-items: stretch;
-      justify-content: space-between;
+      justify-content: space-between; */
+      flex-wrap: wrap;
+      justify-content: center; /* 居中排列 */
+      gap: 2%;  
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 49%;
