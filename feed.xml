@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-08-15T22:49:27+02:00</updated>
+  <updated>2025-08-15T22:56:47+02:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -33,13 +33,13 @@
 
 &lt;div class=&quot;video-flex-grid&quot;&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video src=&quot;img/post-emad/switching-slow.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-emad/switching-slow.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;切换不同体型、风格的Avatar&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video src=&quot;img/post-emad/realistic-avatar.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-emad/realistic-avatar.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;体验拟真Avatar&lt;/div&gt;
@@ -50,13 +50,13 @@
 
 &lt;div class=&quot;video-flex-grid&quot;&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video src=&quot;img/post-emad/RPM.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-emad/RPM.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;实时加载Ready Player Me Avatar&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video src=&quot;img/post-emad/embodimentlab-avatar.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-emad/embodimentlab-avatar.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;实时加载EmbodimentLab Avatar&lt;/div&gt;
@@ -114,19 +114,19 @@
 
 &lt;div class=&quot;video-flex-grid&quot;&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/registration.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/registration.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;用户注册、个性化设置&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/tutorial.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/tutorial.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;交互教学&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/gallery.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/gallery.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;社交场景及功能演示&lt;/div&gt;
@@ -138,13 +138,13 @@
 &lt;p&gt;本原型集成了运动生物识别验证机制，可通过VR设备采集的用户运动数据（如手部、头部动作）结合机器学习方法进行身份验证&lt;sup&gt;&lt;a href=&quot;#ref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;。为了兼顾安全性与用户体验，我们设计并探究了主动（采集手部书写密码动作）和被动（采集日常交互运动数据）两种验证方式。&lt;/p&gt;
 &lt;div class=&quot;video-flex-grid&quot;&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/verify-active-new.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/verify-active-new.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;主动验证&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/verify-passive-new.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/verify-passive-new.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;被动验证&lt;/div&gt;
@@ -156,7 +156,7 @@
 &lt;p&gt;在社交VR环境中，用户高度关注他人身份的真实性。为此，我们设计了身份真实性可视化机制，通过颜色、图标等视觉指示器直观展示用户身份的可信度，帮助用户快速判断他人的身份，从而提升社交互动中的信任感&lt;sup&gt;&lt;a href=&quot;#ref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;。此外，系统还集成了便捷的交互方式，如佩戴虚拟眼镜查看他人身份信息、访问个人资料等，使用户能够高效获取相关信息，进一步增强了社交VR的互动体验与沉浸感。&lt;/p&gt;
 &lt;div class=&quot;video-flex-grid&quot; style=&quot;justify-content: center;&quot;&gt;
   &lt;div class=&quot;video-flex-item&quot; style=&quot;max-width:500px;&quot;&gt;
-    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/goggle.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/goggle.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;身份真实性可视化交互&lt;/div&gt;
@@ -169,7 +169,7 @@
 
 &lt;div class=&quot;video-flex-grid&quot; style=&quot;justify-content: center;&quot;&gt;
   &lt;div class=&quot;video-flex-item&quot; style=&quot;max-width:500px;&quot;&gt;
-    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/user-profiles.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/user-profiles.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;身份管理交互界面&lt;/div&gt;
@@ -205,13 +205,13 @@
 
 
 
-&lt;div id=&quot;video-player-container-120250815224927&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
-  &lt;div id=&quot;video-player-120250815224927&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
+&lt;div id=&quot;video-player-container-120250815225647&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
+  &lt;div id=&quot;video-player-120250815225647&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
     &lt;iframe src=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=114985082558201&amp;bvid=BV1QBtizgETP&amp;cid=31534482748&amp;p=1&amp;autoplay=0&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
   &lt;/div&gt;
   &lt;div style=&quot;text-align:right; font-size:0.9em; color:#666;&quot;&gt;
-    &lt;label for=&quot;video-source-120250815224927&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
-    &lt;select id=&quot;video-source-120250815224927&quot; style=&quot;font-size:0.9em;&quot;&gt;
+    &lt;label for=&quot;video-source-120250815225647&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
+    &lt;select id=&quot;video-source-120250815225647&quot; style=&quot;font-size:0.9em;&quot;&gt;
       
         
         &lt;option value=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=114985082558201&amp;bvid=BV1QBtizgETP&amp;cid=31534482748&amp;p=1&amp;autoplay=0&quot; selected&gt;bilibili&lt;/option&gt;
@@ -225,7 +225,7 @@
 
 &lt;script&gt;
 (function(){
-  var uniq = &quot;120250815224927&quot;;
+  var uniq = &quot;120250815225647&quot;;
   var select = document.getElementById(&quot;video-source-&quot; + uniq);
   var playerDiv = document.getElementById(&quot;video-player-&quot; + uniq);
 
@@ -245,13 +245,13 @@
 
 
 
-&lt;div id=&quot;video-player-container-220250815224927&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
-  &lt;div id=&quot;video-player-220250815224927&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
+&lt;div id=&quot;video-player-container-220250815225647&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
+  &lt;div id=&quot;video-player-220250815225647&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
     &lt;iframe src=&quot;//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
   &lt;/div&gt;
   &lt;div style=&quot;text-align:right; font-size:0.9em; color:#666;&quot;&gt;
-    &lt;label for=&quot;video-source-220250815224927&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
-    &lt;select id=&quot;video-source-220250815224927&quot; style=&quot;font-size:0.9em;&quot;&gt;
+    &lt;label for=&quot;video-source-220250815225647&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
+    &lt;select id=&quot;video-source-220250815225647&quot; style=&quot;font-size:0.9em;&quot;&gt;
       
         
         &lt;option value=&quot;//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW&quot; selected&gt;youtube&lt;/option&gt;
@@ -265,7 +265,7 @@
 
 &lt;script&gt;
 (function(){
-  var uniq = &quot;220250815224927&quot;;
+  var uniq = &quot;220250815225647&quot;;
   var select = document.getElementById(&quot;video-source-&quot; + uniq);
   var playerDiv = document.getElementById(&quot;video-player-&quot; + uniq);
 
