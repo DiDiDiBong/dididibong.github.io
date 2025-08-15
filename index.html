@@ -494,13 +494,13 @@
 
 
 
-<div id="video-player-container-120250815223551" style="max-width:700px;margin:auto;">
-  <div id="video-player-120250815223551" style="margin-bottom:0.5em;">
+<div id="video-player-container-120250815224927" style="max-width:700px;margin:auto;">
+  <div id="video-player-120250815224927" style="margin-bottom:0.5em;">
     <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114985082558201&bvid=BV1QBtizgETP&cid=31534482748&p=1&autoplay=0" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
   </div>
   <div style="text-align:right; font-size:0.9em; color:#666;">
-    <label for="video-source-120250815223551" style="margin-right:0.5em;">如无法播放请更换视频源：</label>
-    <select id="video-source-120250815223551" style="font-size:0.9em;">
+    <label for="video-source-120250815224927" style="margin-right:0.5em;">如无法播放请更换视频源：</label>
+    <select id="video-source-120250815224927" style="font-size:0.9em;">
       
         
         <option value="//player.bilibili.com/player.html?isOutside=true&aid=114985082558201&bvid=BV1QBtizgETP&cid=31534482748&p=1&autoplay=0" selected>bilibili</option>
@@ -514,7 +514,7 @@
 
 <script>
 (function(){
-  var uniq = "120250815223551";
+  var uniq = "120250815224927";
   var select = document.getElementById("video-source-" + uniq);
   var playerDiv = document.getElementById("video-player-" + uniq);
 
@@ -534,13 +534,13 @@
 
 
 
-<div id="video-player-container-220250815223551" style="max-width:700px;margin:auto;">
-  <div id="video-player-220250815223551" style="margin-bottom:0.5em;">
+<div id="video-player-container-220250815224927" style="max-width:700px;margin:auto;">
+  <div id="video-player-220250815224927" style="margin-bottom:0.5em;">
     <iframe src="//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
   </div>
   <div style="text-align:right; font-size:0.9em; color:#666;">
-    <label for="video-source-220250815223551" style="margin-right:0.5em;">如无法播放请更换视频源：</label>
-    <select id="video-source-220250815223551" style="font-size:0.9em;">
+    <label for="video-source-220250815224927" style="margin-right:0.5em;">如无法播放请更换视频源：</label>
+    <select id="video-source-220250815224927" style="font-size:0.9em;">
       
         
         <option value="//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW" selected>youtube</option>
@@ -554,7 +554,7 @@
 
 <script>
 (function(){
-  var uniq = "220250815223551";
+  var uniq = "220250815224927";
   var select = document.getElementById("video-source-" + uniq);
   var playerDiv = document.getElementById("video-player-" + uniq);
 
@@ -569,13 +569,35 @@
 
  -->
 
-<script>
-  function isMobile() {
-    return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+<!-- <script>
+  function isWeChatMobile() {
+    var ua = navigator.userAgent;
+    return /MicroMessenger/i.test(ua) && /iPhone|iPad|iPod|Android/i.test(ua);
   }
-  if (isMobile()) {
+  if (isWeChatMobile()) {
     document.querySelectorAll('video.auto-controls').forEach(function(video) {
       video.setAttribute('controls', 'controls');
+    });
+  }
+</script> -->
+
+<script>
+  function isWeChatMobile() {
+    var ua = navigator.userAgent;
+    return /MicroMessenger/i.test(ua) && /iPhone|iPad|iPod|Android/i.test(ua);
+  }
+  if (isWeChatMobile()) {
+    document.querySelectorAll('video.auto-controls').forEach(function(video) {
+      // 隐藏视频
+      video.style.display = "none";
+      // 插入提示文字
+      var tip = document.createElement("div");
+      tip.style.textAlign = "center";
+      tip.style.color = "#c00";
+      tip.style.fontSize = "1em";
+      tip.style.margin = "16px 0";
+      tip.innerText = "请使用其他浏览器或在电脑端打开以显示短片";
+      video.parentNode.insertBefore(tip, video);
     });
   }
 </script>
