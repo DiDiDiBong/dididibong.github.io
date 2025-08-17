@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-08-18T00:37:44+02:00</updated>
+  <updated>2025-08-18T00:51:54+02:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -205,13 +205,13 @@
 
 
 
-&lt;div id=&quot;video-player-container-120250818003744&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
-  &lt;div id=&quot;video-player-120250818003744&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
+&lt;div id=&quot;video-player-container-120250818005154&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
+  &lt;div id=&quot;video-player-120250818005154&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
     &lt;iframe src=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=114985082558201&amp;bvid=BV1QBtizgETP&amp;cid=31534482748&amp;p=1&amp;autoplay=0&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
   &lt;/div&gt;
   &lt;div style=&quot;text-align:right; font-size:0.9em; color:#666;&quot;&gt;
-    &lt;label for=&quot;video-source-120250818003744&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
-    &lt;select id=&quot;video-source-120250818003744&quot; style=&quot;font-size:0.9em;&quot;&gt;
+    &lt;label for=&quot;video-source-120250818005154&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
+    &lt;select id=&quot;video-source-120250818005154&quot; style=&quot;font-size:0.9em;&quot;&gt;
       
         
         &lt;option value=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=114985082558201&amp;bvid=BV1QBtizgETP&amp;cid=31534482748&amp;p=1&amp;autoplay=0&quot; selected&gt;bilibili&lt;/option&gt;
@@ -225,7 +225,7 @@
 
 &lt;script&gt;
 (function(){
-  var uniq = &quot;120250818003744&quot;;
+  var uniq = &quot;120250818005154&quot;;
   var select = document.getElementById(&quot;video-source-&quot; + uniq);
   var playerDiv = document.getElementById(&quot;video-player-&quot; + uniq);
 
@@ -245,13 +245,13 @@
 
 
 
-&lt;div id=&quot;video-player-container-220250818003744&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
-  &lt;div id=&quot;video-player-220250818003744&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
+&lt;div id=&quot;video-player-container-220250818005154&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
+  &lt;div id=&quot;video-player-220250818005154&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
     &lt;iframe src=&quot;//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
   &lt;/div&gt;
   &lt;div style=&quot;text-align:right; font-size:0.9em; color:#666;&quot;&gt;
-    &lt;label for=&quot;video-source-220250818003744&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
-    &lt;select id=&quot;video-source-220250818003744&quot; style=&quot;font-size:0.9em;&quot;&gt;
+    &lt;label for=&quot;video-source-220250818005154&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
+    &lt;select id=&quot;video-source-220250818005154&quot; style=&quot;font-size:0.9em;&quot;&gt;
       
         
         &lt;option value=&quot;//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW&quot; selected&gt;youtube&lt;/option&gt;
@@ -265,7 +265,7 @@
 
 &lt;script&gt;
 (function(){
-  var uniq = &quot;220250818003744&quot;;
+  var uniq = &quot;220250818005154&quot;;
   var select = document.getElementById(&quot;video-source-&quot; + uniq);
   var playerDiv = document.getElementById(&quot;video-player-&quot; + uniq);
 
@@ -352,40 +352,7 @@
     }
     // iPhone Safari 保持原设置
   });
-&lt;/script&gt; --&gt;
-
-&lt;script&gt;
-  function isChrome() {
-    var ua = navigator.userAgent;
-    return /Chrome/i.test(ua) &amp;&amp; !/Edg|OPR|UCBrowser|QQBrowser|MicroMessenger|MiuiBrowser/i.test(ua);
-  }
-  function isSafari() {
-    var ua = navigator.userAgent;
-    return /Safari/i.test(ua) &amp;&amp; !/Chrome|CriOS|FxiOS|EdgiOS|UCBrowser|QQBrowser|MicroMessenger|OPR|Edg|MiuiBrowser/i.test(ua);
-  }
-  function isMobile() {
-    return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  }
-
-  document.querySelectorAll(&apos;video.auto-controls&apos;).forEach(function(video) {
-    if (isChrome() || isSafari()) {
-      // Chrome和Safari保持原设计
-      return;
-    }
-    if (isMobile()) {
-      video.removeAttribute(&apos;autoplay&apos;);
-      video.setAttribute(&apos;controls&apos;, &apos;controls&apos;);
-      var tip = document.createElement(&quot;div&quot;);
-      tip.style.textAlign = &quot;center&quot;;
-      tip.style.color = &quot;#c00&quot;;
-      tip.style.fontSize = &quot;1em&quot;;
-      tip.style.margin = &quot;8px 0&quot;;
-      tip.innerText = &quot;推荐使用电脑端浏览器或移动端 Safari、Chrome 浏览器以获得最佳浏览体验&quot;;
-      video.parentNode.insertBefore(tip, video);
-    }
-    // 其他桌面端浏览器保持原设计
-  });
-&lt;/script&gt;</content>
+&lt;/script&gt; --&gt;</content>
 
       
       
