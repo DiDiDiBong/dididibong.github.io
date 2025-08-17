@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-08-16T00:11:56+02:00</updated>
+  <updated>2025-08-18T00:37:44+02:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -56,7 +56,7 @@
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;实时加载Ready Player Me Avatar&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
-    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-emad/el-avatar.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-emad/el-realistic-avatar.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
       您的浏览器不支持 WebM 视频。
     &lt;/video&gt;
     &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;实时加载EmbodimentLab Avatar&lt;/div&gt;
@@ -64,7 +64,7 @@
 &lt;/div&gt;
 
 &lt;h3 id=&quot;个人角色与贡献&quot;&gt;个人角色与贡献&lt;/h3&gt;
-&lt;p&gt;本 Demo 作为 &lt;em&gt;&lt;a href=&quot;https://gitlab2.informatik.uni-wuerzburg.de/hci/realitystack/realitystack-info&quot;&gt;RealityStack&lt;/a&gt;&lt;/em&gt; 框架的一个开发示例，使用了框架内资源及第三方插件 &lt;em&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/tools/animation/final-ik-14290&quot;&gt;Final IK&lt;/a&gt;&lt;/em&gt; 和 &lt;em&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/tools/game-toolkits/ready-player-me-avatar-and-character-creator-259814&quot;&gt;Ready Player Me SDK&lt;/a&gt;&lt;/em&gt;。在此基础上我独立承担其&lt;strong&gt;设计与开发工作&lt;/strong&gt;，包括但不限于程序开发、3D美术、场景搭建、交互逻辑与UI设计及实现等。&lt;/p&gt;
+&lt;p&gt;本 Demo 作为 &lt;em&gt;&lt;a href=&quot;https://gitlab2.informatik.uni-wuerzburg.de/hci/realitystack/realitystack-info&quot;&gt;RealityStack&lt;/a&gt;&lt;/em&gt; 框架的一个开发示例，使用了框架内资源及第三方插件 &lt;em&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/tools/animation/final-ik-14290&quot;&gt;Final IK&lt;/a&gt;&lt;/em&gt; 和 &lt;em&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/tools/game-toolkits/ready-player-me-avatar-and-character-creator-259814&quot;&gt;Ready Player Me SDK&lt;/a&gt;&lt;/em&gt;。在此基础上本人独立承担其&lt;strong&gt;设计与开发工作&lt;/strong&gt;，包括但不限于程序开发、3D美术、场景搭建、交互逻辑与UI设计及实现等。&lt;/p&gt;
 
 &lt;h3 id=&quot;相关链接&quot;&gt;相关链接&lt;/h3&gt;
 &lt;p&gt;● &lt;a href=&quot;https://github.com/DiDiDiBong/Avatar-Customization-and-Embodiment&quot;&gt;Demo下载&lt;/a&gt;&lt;/p&gt;</content>
@@ -106,7 +106,7 @@
   &lt;img src=&quot;img/post-social-vr-idm/identity-theft.png&quot; width=&quot;100%&quot; alt=&quot;&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;身份盗用和隐私泄露是元宇宙/社交虚拟现实（Social VR）中无法忽视的挑战。随着社交VR应用的普及，以及在教育、娱乐和工作等领域潜在的广泛应用，用户对隐私保护和身份管理的需求日益增加。以及其在教育、娱乐和工作等领域的广泛应用，用户对隐私保护和身份管理的需求日益增加。我们开发了一个集成运动生物识别验证等新型与传统防护措施的社交VR原型，旨在探索多种身份管理方案及其对可用性和用户接受度的影响。相关研究已发表于ISMAR 2024&lt;sup&gt;&lt;a href=&quot;#ref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;p&gt;身份盗用和隐私泄露是元宇宙/社交虚拟现实（Social VR）中无法忽视的挑战。随着社交VR应用的普及，以及在教育、娱乐和工作等领域潜在的广泛应用，用户对隐私保护和身份管理的需求日益增加。以及其在教育、娱乐和工作等领域的广泛应用，用户对隐私保护和身份管理的需求日益增加。我们开发了一个集成运动生物识别验证等新型与传统防护措施的社交VR原型，旨在探索多种身份管理方案及其对可用性和用户接受度的影响。相关研究已发表于ISMAR 2024&lt;sup&gt;&lt;a href=&quot;#ref_idm1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 
 &lt;h3 id=&quot;项目亮点&quot;&gt;项目亮点&lt;/h3&gt;
 
@@ -135,7 +135,7 @@
 
 &lt;h4 id=&quot;-运动生物识别验证机制&quot;&gt;● 运动生物识别验证机制&lt;/h4&gt;
 
-&lt;p&gt;本原型集成了运动生物识别验证机制，可通过VR设备采集的用户运动数据（如手部、头部动作）结合机器学习方法进行身份验证&lt;sup&gt;&lt;a href=&quot;#ref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;。为了兼顾安全性与用户体验，我们设计并探究了主动（采集手部书写密码动作）和被动（采集日常交互运动数据）两种验证方式。&lt;/p&gt;
+&lt;p&gt;本原型集成了运动生物识别验证机制，可通过VR设备采集的用户运动数据（如手部、头部动作）结合机器学习方法进行身份验证&lt;sup&gt;&lt;a href=&quot;#ref_idm2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;。为了兼顾安全性与用户体验，我们设计并探究了主动（采集手部书写密码动作）和被动（采集日常交互运动数据）两种验证方式。&lt;/p&gt;
 &lt;div class=&quot;video-flex-grid&quot;&gt;
   &lt;div class=&quot;video-flex-item&quot;&gt;
     &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/verify-active-new.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
@@ -153,7 +153,7 @@
 
 &lt;h4 id=&quot;-身份真实度可视化&quot;&gt;● 身份真实度可视化&lt;/h4&gt;
 
-&lt;p&gt;在社交VR环境中，用户高度关注他人身份的真实性。为此，我们设计了身份真实性可视化机制，通过颜色、图标等视觉指示器直观展示用户身份的可信度，帮助用户快速判断他人的身份，从而提升社交互动中的信任感&lt;sup&gt;&lt;a href=&quot;#ref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;。此外，系统还集成了便捷的交互方式，如佩戴虚拟眼镜查看他人身份信息、访问个人资料等，使用户能够高效获取相关信息，进一步增强了社交VR的互动体验与沉浸感。&lt;/p&gt;
+&lt;p&gt;在社交VR环境中，用户高度关注他人身份的真实性。为此，我们设计了身份真实性可视化机制，通过颜色、图标等视觉指示器直观展示用户身份的可信度，帮助用户快速判断他人的身份，从而提升社交互动中的信任感&lt;sup&gt;&lt;a href=&quot;#ref_idm3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;。此外，系统还集成了便捷的交互方式，如佩戴虚拟眼镜查看他人身份信息、访问个人资料等，使用户能够高效获取相关信息，进一步增强了社交VR的互动体验与沉浸感。&lt;/p&gt;
 &lt;div class=&quot;video-flex-grid&quot; style=&quot;justify-content: center;&quot;&gt;
   &lt;div class=&quot;video-flex-item&quot; style=&quot;max-width:500px;&quot;&gt;
     &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-social-vr-idm/goggle.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
@@ -181,13 +181,13 @@
 
 &lt;h3 id=&quot;参考文献&quot;&gt;参考文献&lt;/h3&gt;
 
-&lt;p&gt;&lt;a id=&quot;ref1&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a id=&quot;ref_idm1&quot;&gt;&lt;/a&gt;
 [1] Lin, J., Rack, C., Wienrich, C., &amp;amp; Latoschik, M. E. (2024, October). Usability, acceptance, and trust of privacy protection mechanisms and identity management in social virtual reality. In 2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR) (pp. 130-139). IEEE.&lt;/p&gt;
 
-&lt;p&gt;&lt;a id=&quot;ref2&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a id=&quot;ref_idm2&quot;&gt;&lt;/a&gt;
 [2] Rack, C., Schach, L., Achter, F., Shehada, Y., Lin, J., &amp;amp; Latoschik, M. E. (2024, October). Motion passwords. In Proceedings of the 30th ACM Symposium on Virtual Reality Software and Technology (pp. 1-11).&lt;/p&gt;
 
-&lt;p&gt;&lt;a id=&quot;ref3&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a id=&quot;ref_idm3&quot;&gt;&lt;/a&gt;
 [3] Lin, J., Cronjé, J., Wienrich, C., Pauli, P., &amp;amp; Latoschik, M. E. (2023). Visual Indicators Representing Avatars’ Authenticity in Social Virtual Reality and Their Impacts on Perceived Trustworthiness. IEEE transactions on visualization and computer graphics, 29(11), 4589-4599.&lt;/p&gt;
 
 &lt;h3 id=&quot;相关链接&quot;&gt;相关链接&lt;/h3&gt;
@@ -205,13 +205,13 @@
 
 
 
-&lt;div id=&quot;video-player-container-120250816001156&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
-  &lt;div id=&quot;video-player-120250816001156&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
+&lt;div id=&quot;video-player-container-120250818003744&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
+  &lt;div id=&quot;video-player-120250818003744&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
     &lt;iframe src=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=114985082558201&amp;bvid=BV1QBtizgETP&amp;cid=31534482748&amp;p=1&amp;autoplay=0&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
   &lt;/div&gt;
   &lt;div style=&quot;text-align:right; font-size:0.9em; color:#666;&quot;&gt;
-    &lt;label for=&quot;video-source-120250816001156&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
-    &lt;select id=&quot;video-source-120250816001156&quot; style=&quot;font-size:0.9em;&quot;&gt;
+    &lt;label for=&quot;video-source-120250818003744&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
+    &lt;select id=&quot;video-source-120250818003744&quot; style=&quot;font-size:0.9em;&quot;&gt;
       
         
         &lt;option value=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=114985082558201&amp;bvid=BV1QBtizgETP&amp;cid=31534482748&amp;p=1&amp;autoplay=0&quot; selected&gt;bilibili&lt;/option&gt;
@@ -225,7 +225,7 @@
 
 &lt;script&gt;
 (function(){
-  var uniq = &quot;120250816001156&quot;;
+  var uniq = &quot;120250818003744&quot;;
   var select = document.getElementById(&quot;video-source-&quot; + uniq);
   var playerDiv = document.getElementById(&quot;video-player-&quot; + uniq);
 
@@ -245,13 +245,13 @@
 
 
 
-&lt;div id=&quot;video-player-container-220250816001156&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
-  &lt;div id=&quot;video-player-220250816001156&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
+&lt;div id=&quot;video-player-container-220250818003744&quot; style=&quot;max-width:700px;margin:auto;&quot;&gt;
+  &lt;div id=&quot;video-player-220250818003744&quot; style=&quot;margin-bottom:0.5em;&quot;&gt;
     &lt;iframe src=&quot;//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
   &lt;/div&gt;
   &lt;div style=&quot;text-align:right; font-size:0.9em; color:#666;&quot;&gt;
-    &lt;label for=&quot;video-source-220250816001156&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
-    &lt;select id=&quot;video-source-220250816001156&quot; style=&quot;font-size:0.9em;&quot;&gt;
+    &lt;label for=&quot;video-source-220250818003744&quot; style=&quot;margin-right:0.5em;&quot;&gt;如无法播放请更换视频源：&lt;/label&gt;
+    &lt;select id=&quot;video-source-220250818003744&quot; style=&quot;font-size:0.9em;&quot;&gt;
       
         
         &lt;option value=&quot;//www.youtube.com/embed/xvVknzCcdro?si=L1kN0ssuSKqaDvaW&quot; selected&gt;youtube&lt;/option&gt;
@@ -265,7 +265,7 @@
 
 &lt;script&gt;
 (function(){
-  var uniq = &quot;220250816001156&quot;;
+  var uniq = &quot;220250818003744&quot;;
   var select = document.getElementById(&quot;video-source-&quot; + uniq);
   var playerDiv = document.getElementById(&quot;video-player-&quot; + uniq);
 
@@ -419,7 +419,42 @@
       <published>2023-03-01T00:00:00+01:00</published>
       <updated>2023-03-01T00:00:00+01:00</updated>
       <id>http://localhost:4000/virtual-maze</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
+      <content type="html" xml:base="http://localhost:4000/">&lt;h3 id=&quot;项目背景&quot;&gt;项目背景&lt;/h3&gt;
+
+&lt;p&gt;在社交虚拟现实以及其他虚拟环境中，人际信任非常重要，不单单是用户之间的信任，还包括用户对于虚拟环境中其他实体（如社交机器人、虚拟助手等）的信任。传统的信任测量方式多采用量表等主观评估工具，难以捕捉用户在动态交互中的真实信任行为。因此，本项目旨在通过虚拟现实技术，提供一种新的信任行为测量范式。相关研究已发表于IEEE TVCG&lt;sup&gt;&lt;a href=&quot;#ref_maze1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; 及 IVA 2023&lt;sup&gt;&lt;a href=&quot;#ref_maze2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;项目亮点&quot;&gt;项目亮点&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;● 信任行为测量&lt;/strong&gt;：通过虚拟现实技术和合作任务，直接记录用户在互动过程中的信任选择，补充传统量表的不足，更贴近实际行为。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;● 动态社交环境设计&lt;/strong&gt;：项目构建了一个虚拟迷宫场景，参与者需要与其他用户或虚拟角色进行互动，并在过程中做出信任相关决策。这种动态环境能够更真实地反映现实中的社交情境。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;● 范式灵活可扩展&lt;/strong&gt;：该方法可以根据不同研究需求进行调整，适用于多种信任相关课题，也可用于社交机器人和虚拟助手等领域的研究和应用设计。&lt;/p&gt;
+
+&lt;div class=&quot;video-flex-grid&quot;&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-virtual-maze/maze.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-virtual-maze/door-open.webm&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
+      您的浏览器不支持 WebM 视频。
+    &lt;/video&gt;
+    &lt;div style=&quot;text-align:center; font-size:0.95em; color:#666;&quot;&gt;被动验证&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;参考文献&quot;&gt;参考文献&lt;/h3&gt;
+&lt;p&gt;&lt;a id=&quot;ref_maze1&quot;&gt;&lt;/a&gt;
+[1] Lin, J., Cronjé, J., Käthner, I., Pauli, P., &amp;amp; Latoschik, M. E. (2023). Measuring interpersonal trust towards virtual humans with a virtual maze paradigm. IEEE Transactions on Visualization and Computer Graphics, 29(5), 2401-2411.&lt;/p&gt;
+
+&lt;p&gt;&lt;a id=&quot;ref_maze2&quot;&gt;&lt;/a&gt;
+[2] Lin, J., Cronjé, J., Käthner, I., Pauli, P., &amp;amp; Latoschik, M. E. (2023, September). The Virtual Maze: a Tool for Measuring Trust towards Virtual Humans. In Proceedings of the 23rd ACM International Conference on Intelligent Virtual Agents (pp. 1-3).&lt;/p&gt;
+
+&lt;h3 id=&quot;相关链接&quot;&gt;相关链接&lt;/h3&gt;
+&lt;p&gt;● &lt;a href=&quot;https://gitlab2.informatik.uni-wuerzburg.de/hci/software/research-prototypes/2023-tvcg-the-virtual-maze&quot;&gt;项目仓库&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -440,7 +475,7 @@
       
 
       
-        <summary type="html"></summary>
+        <summary type="html">项目背景</summary>
       
 
       
@@ -454,14 +489,80 @@
       <updated>2019-09-01T00:00:00+02:00</updated>
       <id>http://localhost:4000/the-regency-town-house</id>
       <content type="html" xml:base="http://localhost:4000/">&lt;h3 id=&quot;项目背景&quot;&gt;项目背景&lt;/h3&gt;
-&lt;p&gt;The Regency Town House 是位于英国布莱顿的一处历史建筑，建于1820年，现为布莱顿和霍夫市的文化遗产保护项目。我们与该文化遗产保护项目合作，旨在通过增强现实（AR）技术，向公众展示这座建筑的历史和文化价值。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Regency Town House&lt;/strong&gt; 是位于英国布莱顿的一处历史建筑，建于1820年，现为布莱顿和霍夫市的文化遗产保护项目。我们与该文化遗产保护项目合作，旨在通过增强现实（AR）技术，向公众展示这座建筑的历史和文化价值。&lt;/p&gt;
 
 &lt;h3 id=&quot;项目亮点&quot;&gt;项目亮点&lt;/h3&gt;
+&lt;h4 id=&quot;-增强现实可视化&quot;&gt;● &lt;strong&gt;增强现实可视化&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;使用 AR 技术将建筑的室内装潢、历史信息和文化背景以交互式方式呈现，增强参观者的体验。&lt;/p&gt;
+&lt;div class=&quot;image-flex-grid&quot;&gt;
+  &lt;div class=&quot;image-flex-item&quot;&gt;
+    &lt;img src=&quot;img/post-the-regency-town-house/UI.png&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;image-flex-item&quot;&gt;
+    &lt;img src=&quot;img/post-the-regency-town-house/UI-2.png&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;-建筑数字化重建&quot;&gt;● &lt;strong&gt;建筑数字化重建&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;通过现场测绘和三维建模技术，重建建筑的原始外观和内部结构。&lt;/p&gt;
+&lt;div class=&quot;image-flex-grid&quot;&gt;
+  &lt;div class=&quot;image-flex-item&quot;&gt;
+    &lt;img src=&quot;img/post-the-regency-town-house/fireplace.png&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;image-flex-item&quot;&gt;
+    &lt;img src=&quot;img/post-the-regency-town-house/piano.png&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;-还原历史面貌&quot;&gt;● &lt;strong&gt;还原历史面貌&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;结合历史文献和照片资料，重现建筑在不同时期的室内装饰和布局。&lt;/p&gt;
+
+&lt;div class=&quot;image-flex-grid&quot;&gt;
+  &lt;div class=&quot;image-flex-item&quot;&gt;
+    &lt;img src=&quot;img/post-the-regency-town-house/reference-1.png&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;image-flex-item&quot;&gt;
+    &lt;img src=&quot;img/post-the-regency-town-house/reference-2.png&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;image-flex-item&quot;&gt;
+    &lt;img src=&quot;img/post-the-regency-town-house/different-design.png&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;-多模式展示&quot;&gt;● &lt;strong&gt;多模式展示&lt;/strong&gt;：&lt;/h4&gt;
+&lt;p&gt;项目提供两种展示模式：&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;增强现实可视化&lt;/strong&gt;：使用 AR 技术将建筑的历史信息和文化背景以交互式方式呈现，增强参观者的体验。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;建筑数字化重建&lt;/strong&gt;：通过现场测绘和三维建模技术，重建建筑的原始外观和内部结构。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;还原历史面貌&lt;/strong&gt;：结合历史文献和照片资料，重现建筑在不同时期的室内装饰和布局。&lt;/li&gt;
-&lt;/ul&gt;</content>
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;微缩模式（Miniature Mode）：&lt;/strong&gt;通过交互操作，参观者可以旋转、缩放建筑的微缩模型，检视不同的楼层及房间，了解装饰细节和历史信息。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;沉浸模式（Immersive Mode）：&lt;/strong&gt;参观者可以在建筑内部进行虚拟漫游，通过设备屏幕体验历史场景和装饰风格。该模式提供了更为沉浸的体验，使参观者能够感受建筑的历史氛围。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&quot;text-align:center; font-size:1em; color:#666;&quot;&gt;微缩模式&lt;/div&gt;
+
+&lt;div class=&quot;video-flex-grid&quot;&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;img src=&quot;img/post-the-regency-town-house/miniature-mode.png&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;img src=&quot;img/post-the-regency-town-house/miniature-photo.png&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align:center; font-size:1em; color:#666;&quot;&gt;沉浸模式&lt;/div&gt;
+&lt;div class=&quot;video-flex-grid&quot;&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;img src=&quot;img/post-the-regency-town-house/immersive-mode.png&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;video-flex-item&quot;&gt;
+    &lt;img src=&quot;img/post-the-regency-town-house/immersive-photo.png&quot; width=&quot;100%&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;个人角色与贡献&quot;&gt;个人角色与贡献&lt;/h3&gt;
+&lt;p&gt;在使用第三方资源的基础上，独立完成了项目的全部&lt;strong&gt;设计与开发工作&lt;/strong&gt;，包括概念设计、实地测绘、三维重建、程序开发、交互逻辑和界面设计实现等。&lt;/p&gt;</content>
 
       
       
@@ -502,7 +603,7 @@
 
 &lt;h4 id=&quot;-独特的时间控制机制巧妙利用时间线索解锁谜题&quot;&gt;● 独特的时间控制机制，巧妙利用时间线索解锁谜题。&lt;/h4&gt;
 &lt;div style=&quot;text-align:center;&quot;&gt;
-  &lt;video src=&quot;img/post-escape-the-room/time-shift.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-escape-the-room/time-shift.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
     您的浏览器不支持 WebM 视频。
   &lt;/video&gt;
 &lt;/div&gt;
@@ -510,7 +611,7 @@
 &lt;h4 id=&quot;-多样化沉浸式交互探索房间各处发现隐藏线索&quot;&gt;● 多样化沉浸式交互，探索房间各处，发现隐藏线索。&lt;/h4&gt;
 
 &lt;div style=&quot;text-align:center;&quot;&gt;
-  &lt;video src=&quot;img/post-escape-the-room/lots-of-interactions.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-escape-the-room/lots-of-interactions.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
     您的浏览器不支持 WebM 视频。
   &lt;/video&gt;
 &lt;/div&gt;
@@ -518,7 +619,7 @@
 &lt;h4 id=&quot;-高度自由的探索空间鼓励玩家自主发现和解决问题&quot;&gt;● 高度自由的探索空间，鼓励玩家自主发现和解决问题。&lt;/h4&gt;
 
 &lt;div style=&quot;text-align:center;&quot;&gt;
-  &lt;video src=&quot;img/post-escape-the-room/fan-key-drop.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-escape-the-room/fan-key-drop.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
     您的浏览器不支持 WebM 视频。
   &lt;/video&gt;
 &lt;/div&gt;
@@ -526,7 +627,7 @@
 &lt;h4 id=&quot;-环环相扣的谜题设计考验玩家的观察力与推理能力&quot;&gt;● 环环相扣的谜题设计，考验玩家的观察力与推理能力。&lt;/h4&gt;
 
 &lt;div style=&quot;text-align:center;&quot;&gt;
-  &lt;video src=&quot;img/post-escape-the-room/black-board.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-escape-the-room/black-board.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
     您的浏览器不支持 WebM 视频。
   &lt;/video&gt;
 &lt;/div&gt;
@@ -534,18 +635,27 @@
 &lt;h4 id=&quot;-充满真实感的物理互动助你逃出生天&quot;&gt;● 充满真实感的物理互动，助你逃出生天！&lt;/h4&gt;
 
 &lt;div style=&quot;text-align:center;&quot;&gt;
-  &lt;video src=&quot;img/post-escape-the-room/ice-key-door-open.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;video class=&quot;auto-controls&quot; src=&quot;img/post-escape-the-room/ice-key-door-open.webm&quot; width=&quot;95%&quot; loading=&quot;lazy&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot; playsinline=&quot;&quot;&gt;
     您的浏览器不支持 WebM 视频。
   &lt;/video&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;个人角色与贡献&quot;&gt;个人角色与贡献&lt;/h3&gt;
-&lt;p&gt;该项目为四人合作完成，作为主要开发者之一，我负责了以下工作：&lt;/p&gt;
+&lt;p&gt;作为主要开发者之一，我负责了以下工作：&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;关卡设计，包括谜题设计、线索布局等：&lt;strong&gt;90%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;3D美术，包括所有物品的模型制作、场景搭建等：&lt;strong&gt;100%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;交互逻辑设计，包括时间控制机制、物理交互等：&lt;strong&gt;40%&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;游戏测试与优化：&lt;strong&gt;25%&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;关卡设计，包括谜题设计、线索布局等：&lt;strong&gt;90%&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;3D美术，包括所有物品的模型制作、场景搭建等：&lt;strong&gt;100%&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;交互逻辑设计，包括时间控制机制、物理交互等：&lt;strong&gt;40%&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;游戏测试与优化：&lt;strong&gt;25%&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;相关链接&quot;&gt;相关链接&lt;/h3&gt;

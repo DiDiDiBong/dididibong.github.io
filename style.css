@@ -568,3 +568,33 @@ footer .footer-below {
   width: 100%;
   height: auto;
 }
+
+.image-flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: center;
+}
+
+.image-flex-item div {
+  margin-top: 4px; /* 或 0，根据需要调整 */
+  margin-bottom: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.image-flex-item {
+  flex: 1 1 300px;
+  max-width: 400px;
+  min-width: 250px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-flex-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
